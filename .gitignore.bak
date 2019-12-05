@@ -1,7 +1,3 @@
-/crcf-admin-common/target/
-/crcf-admin-entity/target/
-/crcf-admin-gooflow/target/
-/crcf-admin-service/target/
-/crcf-admin-site/target/
 *.iml
 .idea
+out
