@@ -37,7 +37,7 @@ public class LC560SubarraySum {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1,1,1};
-        System.out.println(subarraySum(nums,2));
+        int[] nums = new int[]{-1, 1, 0, 0, -2, 2, 1};
+        System.out.println(subarraySum(nums,1));
     }
 }
