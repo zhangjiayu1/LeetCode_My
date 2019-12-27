@@ -38,15 +38,24 @@ public class LC560SubarraySum {
         return count;
     }
 
+    /**
+     * 从num[0]开始加，求累计和。如果存在累计总和，在索引i与索引j处相差一个k，也就是sum[j] - sum[i] = k，那从i到j之间的和就是k
+     * @param nums
+     * @param k
+     * @return
+     */
+
     public static int subarraySum_1(int[] nums,int k){
         int count = 0,sum = 0;
         HashMap<Integer,Integer> map = new HashMap<>();
         map.put(0,1);
         for (int i = 0;i < nums.length; i++){
             sum += nums[i];
+            //判断map内是否存在
             if(map.containsKey(sum - k)){
                 count += map.get(sum - k);
             }
+            //存在sum就取sum的，没有就取0
             map.put(sum,map.getOrDefault(sum,0) + 1);
         }
         return count;
