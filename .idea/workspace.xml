@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferJava/OF12WayExist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -107,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OfferJava/OF12WayExist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -379,7 +378,7 @@
       <workItem from="1589283699427" duration="29000" />
       <workItem from="1589877368977" duration="5350000" />
       <workItem from="1589939802379" duration="10893000" />
-      <workItem from="1590022635465" duration="13536000" />
+      <workItem from="1590022635465" duration="13559000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -437,11 +436,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590052237107</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="@ZJY">
+      <created>1590057816310</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590057816310</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80312000" />
+    <option name="totallyTimeSpent" value="80335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +472,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.2793296" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" visible="true" weight="0.22234637" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.22234637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32960895" />
@@ -677,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OfferJava/OF12WayExist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
         </state>
       </provider>
     </entry>
