@@ -58,11 +58,14 @@ public class OF12WayExist {
         if(k == word.length - 1){
             return true;
         }
+        //把当前下标的数值记录下来
         char flag = board[i][j];
         //每走一步就把字符串数组中的字母替换一下，表明这个地方已经走过
         board[i][j] = ' ';
+        //使用 || 是因为一旦有一个返回true，剩下的就可以不用再走了
         boolean result = DFS(board,word,i - 1,j,k + 1) || DFS(board,word,i,j + 1,k + 1) ||
                 DFS(board,word,i + 1,j,k + 1) || DFS(board,word,i,j - 1,k + 1);
+        //回溯，要把之前替换的再换回原来的数值
         board[i][j] = flag;
         return result;
     }
