@@ -21,19 +21,20 @@ public class test1 {
 
     /**
      * 产生字母和数字的随机组合,长度为length
-     * @param length
+     * @param length 需要的长度
      * @return 一个字母和数字随机组合的String型数据
      */
     public static String getRandomNumAndChacters(int length){
         Random random = new Random();
+        //随机到65：大写字母  97：小写字母 如果需要加小写字母可以去掉注释
+        //int choice = random.nextBoolean() ? 65 : 97;
+        int choice = 65;
         String str = null;
         do {
             str = new String();
             for (int i = 0; i < length; i++) {
                 boolean b = random.nextBoolean();
                 if(b){
-                    //随机到65：大写字母  97：小写字母
-                    int choice = 65;
                     str += (char)(choice + random.nextInt(26));
                 }else{
                     str += String.valueOf(random.nextInt(10));

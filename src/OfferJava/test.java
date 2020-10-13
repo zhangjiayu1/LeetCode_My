@@ -16,50 +16,16 @@ import java.util.regex.Pattern;
  */
 public class test {
 
-    public void test_1(String[] str){
-        Stack<Integer> stack1 = new Stack<>();
-        Stack<String> stack2 = new Stack<>();
-        List<Integer> list = new ArrayList<>();
-        for (String s : str){
-            if("]" != s){
-                if(IsNumber(s)){
-                    stack1.push(Integer.valueOf(s));
-                }
+    public void cut(int m,int n){
+        int a;
+        if((m*n)%2 == 0){
+            if(m % 2 == 0){
+                a = m / 2;
             }else {
-                if(stack1.size() != 0){
-                    list.add(stack1.pop());
-                }
+                a = n / 2;
             }
         }
-
     }
 
-    public List<Integer> plus(List<Integer> leftList,List<Integer> rightList){
-        List<Integer> resultList = new ArrayList<>();
-        resultList.addAll(leftList);
-        resultList.addAll(rightList);
-        resultList = new ArrayList<>(new LinkedHashSet<>(resultList));
-        return resultList;
-    }
-
-    public List<Integer> Mlut(List<Integer> leftList,List<Integer> rightList){
-        List<Integer> resultList = new ArrayList<>();
-        for (Integer a : leftList){
-            for (Integer b : rightList){
-                resultList.add(a * 10 + b);
-            }
-        }
-        resultList = new ArrayList<>(new LinkedHashSet<>(resultList));
-        return resultList;
-    }
-
-    //正则表达式判断数字
-    public  Boolean IsNumber(String str){
-        if(str == null){
-            return false;
-        }
-        Pattern pattern = Pattern.compile("^-?\\d+(\\.\\d+)?$");
-        return pattern.matcher(str).matches();
-    }
 
 }
