@@ -51,8 +51,8 @@ public class LC1185DayOfTheWeek {
     public static String[] DAYS = new String[]{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 
     public static String dayOfTheWeek(int day, int month, int year) {
-        String[] DAYS = new String[]{"Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"};
-        int[] MONTHS = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        String[] week = new String[]{"Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"};
+        int[] months = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         int days = day;
         if(year > 1971){
             for (int i = 1971;i < year;i++){
@@ -63,12 +63,12 @@ public class LC1185DayOfTheWeek {
             }
         }
         for (int i = 0;i < month - 1;i++){
-            days += MONTHS[i];
+            days += months[i];
         }
         if(isLeap(year) && month > 2){
             days++;
         }
-        return DAYS[(days - 1) % 7];
+        return week[(days - 1) % 7];
     }
 
     /**

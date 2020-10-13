@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/OfferJava/test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LCJava/LC1185DayOfTheWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCJava/LC1185DayOfTheWeek.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597920081954</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="@ZJY@测试随机订单码">
+      <created>1602601736554</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602601736554</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -322,6 +328,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="@ZJY@测试随机订单码" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1602601736024">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1602601736024" />
     <state width="2517" height="376" key="GridCell.Tab.0.bottom" timestamp="1602601538471">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -358,6 +368,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1602598570124" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1602601737990">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1602601737990" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_My$LC1185DayOfTheWeek.ic" NAME="LC1185DayOfTheWeek Coverage Results" MODIFIED="1602601522020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
