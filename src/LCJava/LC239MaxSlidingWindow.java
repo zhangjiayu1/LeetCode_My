@@ -1,5 +1,9 @@
 package LCJava;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+
 /**
  * Created with IntelliJ IDEA.
  *
@@ -43,7 +47,7 @@ public class LC239MaxSlidingWindow {
      */
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
-        if(n * k == 0){
+        if(n * k <= 0){
             return new int[0];
         }
         if(k == 1){
@@ -61,9 +65,39 @@ public class LC239MaxSlidingWindow {
         return output;
     }
 
+    public static int[] maxSlidingWindow_1(int[] nums,int k){
+        ArrayList<Integer> resultList = new ArrayList<>();
+        int n = nums.length;
+        if(n * k <= 0){
+            return new int[0];
+        }
+        if(k == 1){
+            return nums;
+        }
+        LinkedList<Integer> queue = new LinkedList<>();
+        int[] output = new int[n - k + 1];
+        int j = 0;
+        for (int i = 0;i < n;i++){
+            if (!queue.isEmpty() && i - queue.peek() >= k){
+                queue.pop();
+            }
+            while (!queue.isEmpty() && nums[i] > nums[queue.getLast()]){
+                queue.removeLast();
+            }
+            queue.offer(i);
+            if(i >= k - 1){
+                if (j < n - k + 1){
+                    output[j] = nums[queue.peek()];
+                }
+                j++;
+            }
+        }
+        return output;
+    }
+
     public static void main(String[] args) {
         int[] nums = new int[]{1,3,-1,-3,5,3,6,7};
-        int[] result = maxSlidingWindow(nums,3);
+        int[] result = maxSlidingWindow_1(nums,3);
         for (int i : result){
             System.out.println(i);
         }
