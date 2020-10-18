@@ -65,8 +65,14 @@ public class LC239MaxSlidingWindow {
         return output;
     }
 
+    /**
+     * 看了题解之后才知道的双向队列方法
+     *
+     * @param nums 数组
+     * @param k 滑动窗口
+     * @return 结果数组
+     */
     public static int[] maxSlidingWindow_1(int[] nums,int k){
-        ArrayList<Integer> resultList = new ArrayList<>();
         int n = nums.length;
         if(n * k <= 0){
             return new int[0];
