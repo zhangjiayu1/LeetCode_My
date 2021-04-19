@@ -6,7 +6,7 @@ package LCJava;
  * @author: 11568
  * @date: 2021/04/18
  * Time: 14:08
- * Description:
+ * Description: 二分法
  * 给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
  *
  * 如果数组中不存在目标值 target，返回 [-1, -1]。

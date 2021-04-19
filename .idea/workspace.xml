@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC33Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC34SearchRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC35SearchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC209MinSubArrayLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC27RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LCJava/LC33Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCJava/LC33Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LCJava/LC34SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCJava/LC34SearchRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LCJava/LC35SearchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCJava/LC35SearchInsert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +58,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cctf/cctf-admin" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.LC35SearchInsert">
+  <component name="RunManager" selected="Application.LC27RemoveElement">
     <configuration name="LC1185DayOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LCJava.LC1185DayOfTheWeek" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LCJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC27RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCJava.LC27RemoveElement" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -96,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OF12WayExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfferJava.OF12WayExist" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OfferJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OfferJava.test1" />
       <module name="LeetCode" />
@@ -124,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC27RemoveElement" />
         <item itemvalue="Application.LC35SearchInsert" />
         <item itemvalue="Application.LC1185DayOfTheWeek" />
         <item itemvalue="Application.OF10_1Fib" />
         <item itemvalue="Application.test1" />
-        <item itemvalue="Application.OF12WayExist" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +183,8 @@
       <workItem from="1602551687830" duration="7788000" />
       <workItem from="1603032021835" duration="2703000" />
       <workItem from="1618722190473" duration="11868000" />
-      <workItem from="1618737799416" duration="4480000" />
+      <workItem from="1618737799416" duration="5545000" />
+      <workItem from="1618835750197" duration="9234000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -309,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603035616984</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="@ZJY@二分法查找">
+      <created>1618760707781</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1618760707781</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -353,49 +363,58 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="@ZJY@测试随机订单码" />
     <MESSAGE value="@ZJY" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ZJY" />
+    <MESSAGE value="@ZJY@二分法查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@二分法查找" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1618760707352">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1618760707352" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1618722205470">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1618722205470" />
-    <state width="2517" height="444" key="GridCell.Tab.0.bottom" timestamp="1618733258091">
+    <state width="2517" height="481" key="GridCell.Tab.0.bottom" timestamp="1618847414738">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="444" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1618733258091" />
-    <state width="2517" height="444" key="GridCell.Tab.0.center" timestamp="1618733258091">
+    <state width="2517" height="481" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1618847414738" />
+    <state width="2517" height="481" key="GridCell.Tab.0.center" timestamp="1618847414737">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="444" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1618733258091" />
-    <state width="2517" height="444" key="GridCell.Tab.0.left" timestamp="1618733258091">
+    <state width="2517" height="481" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1618847414737" />
+    <state width="2517" height="481" key="GridCell.Tab.0.left" timestamp="1618847414737">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="444" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1618733258091" />
-    <state width="2517" height="444" key="GridCell.Tab.0.right" timestamp="1618733258091">
+    <state width="2517" height="481" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1618847414737" />
+    <state width="2517" height="481" key="GridCell.Tab.0.right" timestamp="1618847414737">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="444" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1618733258091" />
-    <state width="2517" height="444" key="GridCell.Tab.1.bottom" timestamp="1618733258149">
+    <state width="2517" height="481" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1618847414737" />
+    <state width="2517" height="481" key="GridCell.Tab.1.bottom" timestamp="1618847318785">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="444" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1618733258149" />
-    <state width="2517" height="444" key="GridCell.Tab.1.center" timestamp="1618733258149">
+    <state width="2517" height="481" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1618847318785" />
+    <state width="2517" height="481" key="GridCell.Tab.1.center" timestamp="1618847318785">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="444" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1618733258149" />
-    <state width="2517" height="444" key="GridCell.Tab.1.left" timestamp="1618733258149">
+    <state width="2517" height="481" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1618847318785" />
+    <state width="2517" height="481" key="GridCell.Tab.1.left" timestamp="1618847318785">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="444" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1618733258149" />
-    <state width="2517" height="444" key="GridCell.Tab.1.right" timestamp="1618733258149">
+    <state width="2517" height="481" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1618847318785" />
+    <state width="2517" height="481" key="GridCell.Tab.1.right" timestamp="1618847318785">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="444" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1618733258149" />
+    <state width="2517" height="481" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1618847318785" />
     <state x="781" y="344" key="SettingsEditor" timestamp="1618737787959">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1618737787959" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1618760710507">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1618760710507" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_My$LC1185DayOfTheWeek.ic" NAME="LC1185DayOfTheWeek Coverage Results" MODIFIED="1602601522020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
