@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC209MinSubArrayLen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC27RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC203RemoveElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC59GenerateMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LCJava/LC33Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCJava/LC33Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LCJava/LC34SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCJava/LC34SearchRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LCJava/LC35SearchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCJava/LC35SearchInsert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +181,8 @@
       <workItem from="1603032021835" duration="2703000" />
       <workItem from="1618722190473" duration="11868000" />
       <workItem from="1618737799416" duration="5545000" />
-      <workItem from="1618835750197" duration="9234000" />
+      <workItem from="1618835750197" duration="9411000" />
+      <workItem from="1618923069547" duration="6717000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -319,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618760707781</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="@ZJY@滑动窗口与双指针">
+      <created>1618847804473</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1618847804473</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -364,57 +369,58 @@
     <MESSAGE value="@ZJY@测试随机订单码" />
     <MESSAGE value="@ZJY" />
     <MESSAGE value="@ZJY@二分法查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@二分法查找" />
+    <MESSAGE value="@ZJY@滑动窗口与双指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@滑动窗口与双指针" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1618760707352">
+    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1618847803979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1618760707352" />
+    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1618847803979" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1618722205470">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1618722205470" />
-    <state width="2517" height="481" key="GridCell.Tab.0.bottom" timestamp="1618847414738">
+    <state width="2517" height="481" key="GridCell.Tab.0.bottom" timestamp="1618847813644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="481" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1618847414738" />
-    <state width="2517" height="481" key="GridCell.Tab.0.center" timestamp="1618847414737">
+    <state width="2517" height="481" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1618847813644" />
+    <state width="2517" height="481" key="GridCell.Tab.0.center" timestamp="1618847813644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="481" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1618847414737" />
-    <state width="2517" height="481" key="GridCell.Tab.0.left" timestamp="1618847414737">
+    <state width="2517" height="481" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1618847813644" />
+    <state width="2517" height="481" key="GridCell.Tab.0.left" timestamp="1618847813643">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="481" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1618847414737" />
-    <state width="2517" height="481" key="GridCell.Tab.0.right" timestamp="1618847414737">
+    <state width="2517" height="481" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1618847813643" />
+    <state width="2517" height="481" key="GridCell.Tab.0.right" timestamp="1618847813644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="481" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1618847414737" />
-    <state width="2517" height="481" key="GridCell.Tab.1.bottom" timestamp="1618847318785">
+    <state width="2517" height="481" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1618847813644" />
+    <state width="2517" height="481" key="GridCell.Tab.1.bottom" timestamp="1618847813644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="481" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1618847318785" />
-    <state width="2517" height="481" key="GridCell.Tab.1.center" timestamp="1618847318785">
+    <state width="2517" height="481" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1618847813644" />
+    <state width="2517" height="481" key="GridCell.Tab.1.center" timestamp="1618847813644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="481" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1618847318785" />
-    <state width="2517" height="481" key="GridCell.Tab.1.left" timestamp="1618847318785">
+    <state width="2517" height="481" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1618847813644" />
+    <state width="2517" height="481" key="GridCell.Tab.1.left" timestamp="1618847813644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="481" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1618847318785" />
-    <state width="2517" height="481" key="GridCell.Tab.1.right" timestamp="1618847318785">
+    <state width="2517" height="481" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1618847813644" />
+    <state width="2517" height="481" key="GridCell.Tab.1.right" timestamp="1618847813644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="481" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1618847318785" />
+    <state width="2517" height="481" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1618847813644" />
     <state x="781" y="344" key="SettingsEditor" timestamp="1618737787959">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1618737787959" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1618760710507">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1618847806168">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1618760710507" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1618847806168" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_My$LC1185DayOfTheWeek.ic" NAME="LC1185DayOfTheWeek Coverage Results" MODIFIED="1602601522020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
