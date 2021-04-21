@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC203RemoveElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC59GenerateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC19RemoveNthFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC206ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC707MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +183,8 @@
       <workItem from="1618722190473" duration="11868000" />
       <workItem from="1618737799416" duration="5545000" />
       <workItem from="1618835750197" duration="9411000" />
-      <workItem from="1618923069547" duration="6717000" />
+      <workItem from="1618923069547" duration="6881000" />
+      <workItem from="1619009161457" duration="7682000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -324,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618847804473</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="@ZJY@59 模拟矩阵 203队列删除元素(哨兵节点)">
+      <created>1618932697841</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1618932697842</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -370,13 +379,14 @@
     <MESSAGE value="@ZJY" />
     <MESSAGE value="@ZJY@二分法查找" />
     <MESSAGE value="@ZJY@滑动窗口与双指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@滑动窗口与双指针" />
+    <MESSAGE value="@ZJY@59 模拟矩阵 203队列删除元素(哨兵节点)" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@59 模拟矩阵 203队列删除元素(哨兵节点)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1618847803979">
+    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1618932697366">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1618847803979" />
+    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1618932697366" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1618722205470">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -417,10 +427,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1618737787959" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1618847806168">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1618932699520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1618847806168" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1618932699520" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_My$LC1185DayOfTheWeek.ic" NAME="LC1185DayOfTheWeek Coverage Results" MODIFIED="1602601522020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
