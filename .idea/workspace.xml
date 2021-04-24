@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC142DetectCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC242IsAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC349Intersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC01TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC202IsHappy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC454FourSumCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cctf/cctf-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.LC27RemoveElement">
@@ -172,7 +190,8 @@
       <workItem from="1618835750197" duration="9411000" />
       <workItem from="1618923069547" duration="6881000" />
       <workItem from="1619009161457" duration="8036000" />
-      <workItem from="1619095180287" duration="7619000" />
+      <workItem from="1619095180287" duration="8180000" />
+      <workItem from="1619238597886" duration="7047000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -328,17 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1619019009822</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="@ZJY@链表 142 242 349">
+      <created>1619105889667</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1619105889667</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -376,17 +393,18 @@
     <MESSAGE value="@ZJY@滑动窗口与双指针" />
     <MESSAGE value="@ZJY@59 模拟矩阵 203队列删除元素(哨兵节点)" />
     <MESSAGE value="@ZJY@206 反转链表 19 删除链表中的倒数第n个值&#10;707 初始化链表以及添加删除的操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@206 反转链表 19 删除链表中的倒数第n个值&#10;707 初始化链表以及添加删除的操作" />
+    <MESSAGE value="@ZJY@链表 142 242 349" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@链表 142 242 349" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1618932697366">
+    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1619105889201">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1618932697366" />
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1618722205470">
+    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1619105889201" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1619244450959">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1618722205470" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1619244450959" />
     <state width="2517" height="481" key="GridCell.Tab.0.bottom" timestamp="1618847813644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -423,10 +441,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1618737787959" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1618932699520">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1619105901042">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1618932699520" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619105901042" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_My$LC1185DayOfTheWeek.ic" NAME="LC1185DayOfTheWeek Coverage Results" MODIFIED="1602601522020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
