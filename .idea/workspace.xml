@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC15ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC383CanConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC18FourSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +191,8 @@
       <workItem from="1619095180287" duration="8180000" />
       <workItem from="1619238597886" duration="7094000" />
       <workItem from="1619354448246" duration="4962000" />
-      <workItem from="1619443411858" duration="6321000" />
+      <workItem from="1619443411858" duration="6526000" />
+      <workItem from="1619536453102" duration="1188000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -362,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619275476165</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="@ZJY@哈希表 383赎金信 15 三数之和">
+      <created>1619452091956</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1619452091956</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,13 +410,14 @@
     <MESSAGE value="@ZJY@206 反转链表 19 删除链表中的倒数第n个值&#10;707 初始化链表以及添加删除的操作" />
     <MESSAGE value="@ZJY@链表 142 242 349" />
     <MESSAGE value="@ZJY@哈希表 01 两数之和 202 开心数 454 四数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@哈希表 01 两数之和 202 开心数 454 四数之和" />
+    <MESSAGE value="@ZJY@哈希表 383赎金信 15 三数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@哈希表 383赎金信 15 三数之和" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1619275475699">
+    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1619452091506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1619275475699" />
+    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1619452091506" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1619356248654">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -454,10 +462,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1618737787959" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1619275480547">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1619452093093">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619275480547" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619452093093" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_My$LC1185DayOfTheWeek.ic" NAME="LC1185DayOfTheWeek Coverage Results" MODIFIED="1602601522020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
