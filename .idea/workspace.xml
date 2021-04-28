@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC18FourSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC344ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC541ReverseStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +193,8 @@
       <workItem from="1619238597886" duration="7094000" />
       <workItem from="1619354448246" duration="4962000" />
       <workItem from="1619443411858" duration="6526000" />
-      <workItem from="1619536453102" duration="1188000" />
+      <workItem from="1619536453102" duration="1352000" />
+      <workItem from="1619617495433" duration="3752000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -466,6 +468,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619452093093" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1619537947088">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1619537947088" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_My$LC1185DayOfTheWeek.ic" NAME="LC1185DayOfTheWeek Coverage Results" MODIFIED="1602601522020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
