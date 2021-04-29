@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC344ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC541ReverseStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC151ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferJava/OF58_2ReverseLeftWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +194,8 @@
       <workItem from="1619354448246" duration="4962000" />
       <workItem from="1619443411858" duration="6526000" />
       <workItem from="1619536453102" duration="1352000" />
-      <workItem from="1619617495433" duration="3752000" />
+      <workItem from="1619617495433" duration="3803000" />
+      <workItem from="1619702789478" duration="5682000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -371,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619452091956</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="@ZJY@字符串 541 344 翻转字符串">
+      <created>1619623631139</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1619623631139</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,13 +421,14 @@
     <MESSAGE value="@ZJY@链表 142 242 349" />
     <MESSAGE value="@ZJY@哈希表 01 两数之和 202 开心数 454 四数之和" />
     <MESSAGE value="@ZJY@哈希表 383赎金信 15 三数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@哈希表 383赎金信 15 三数之和" />
+    <MESSAGE value="@ZJY@字符串 541 344 翻转字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@字符串 541 344 翻转字符串" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="264" key="CommitChangelistDialog2" timestamp="1619452091506">
+    <state x="1217" y="255" key="CommitChangelistDialog2" timestamp="1619623630686">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="264" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1619452091506" />
+    <state x="1217" y="255" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1619623630686" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1619356248654">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -464,10 +473,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1618737787959" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1619452093093">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1619623634898">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619452093093" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619623634898" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1619537947088">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
