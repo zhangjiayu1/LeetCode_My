@@ -64,13 +64,12 @@ public class LC239MaxSlidingWindow {
     }
 
     /**
-     * 看了题解之后才知道的双向队列方法
      * 首先构架一个双向队列，将给出的数组中的数字从队尾依次入列。当队列为空或者新进来的数字小于当前队尾的数字时，就将当前数字放于队列中
      * 当新进来的数字大于前面的数字时，就将队列头的数字从队列中去掉，直到队列为空或者新进来的数字小于他前面的数字。
      * 此时队列头的数字就是当前队列以及滑动窗口的最大数字，在每次更新的时候将队列头数字取出即为我们要的结果
      * 需要判断的是当前队列头数字在不在滑块中，我们在队列中存储数组的下标，然后用当前循环到的下标减去队列头的下标看其是否大于给到的k值即可。
      * @param nums 数组
-     * @param k 滑动窗口
+     * @param k 滑动窗口长度
      * @return 结果数组
      */
     public static int[] maxSlidingWindow_1(int[] nums,int k){
@@ -85,10 +84,12 @@ public class LC239MaxSlidingWindow {
         int[] output = new int[n - k + 1];
         int j = 0;
         for (int i = 0;i < n;i++){
+            //这里是保证滑动窗口的正确性，不能大于等于k
             if (!queue.isEmpty() && i - queue.peek() >= k){
                 //取出队列头元素
                 queue.pop();
             }
+            //while循环来判断队尾元素与当前元素的大小
             while (!queue.isEmpty() && nums[i] > nums[queue.getLast()]){
                 //删掉队尾元素
                 queue.removeLast();

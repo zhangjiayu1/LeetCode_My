@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d607f9bf-96cc-4f84-85e3-1452aa9eded4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC232MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC28StrStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LCJava/LC459RepeatedSubstringPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC1047RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC150EvalRPN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC20IsValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCJava/LC225MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LCJava/LC239MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCJava/LC239MaxSlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +199,10 @@
       <workItem from="1619536453102" duration="1352000" />
       <workItem from="1619617495433" duration="3803000" />
       <workItem from="1619702789478" duration="5727000" />
-      <workItem from="1620393491768" duration="3911000" />
+      <workItem from="1620393491768" duration="3947000" />
+      <workItem from="1620536373085" duration="9989000" />
+      <workItem from="1620651908017" duration="3494000" />
+      <workItem from="1620737963541" duration="2993000" />
     </task>
     <task id="LOCAL-00003" summary="@ZJY">
       <created>1577783511458</created>
@@ -388,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619710592887</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="@ZJY@KMP 28 459  栈实现队列232">
+      <created>1620401634450</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1620401634450</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,13 +444,14 @@
     <MESSAGE value="@ZJY@哈希表 383赎金信 15 三数之和" />
     <MESSAGE value="@ZJY@字符串 541 344 翻转字符串" />
     <MESSAGE value="@ZJY@字符串 151 offer58_2 翻转字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@字符串 151 offer58_2 翻转字符串" />
+    <MESSAGE value="@ZJY@KMP 28 459  栈实现队列232" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ZJY@KMP 28 459  栈实现队列232" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1217" y="255" key="CommitChangelistDialog2" timestamp="1619710592485">
+    <state x="1217" y="255" key="CommitChangelistDialog2" timestamp="1620401633973">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1217" y="255" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1619710592485" />
+    <state x="1217" y="255" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1620401633973" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1619356248654">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -483,10 +496,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1618737787959" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1619710597420">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1620401635846">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619710597420" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1620401635846" />
     <state x="1010" y="459" key="extract.method.dialog" timestamp="1620401581800">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
